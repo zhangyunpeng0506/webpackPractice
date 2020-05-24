@@ -1,0 +1,34 @@
+{
+  "name": "webpackpractice",
+  "version": "1.0.0",
+  "description": "webpack知识练习与巩固",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./build/dev.config.js",
+    "dev": "webpack-dev-server --open --config ./build/dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangyunpeng0506/webpackPractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangyunpeng0506/webpackPractice/issues"
+  },
+  "homepage": "https://github.com/zhangyunpeng0506/webpackPractice#readme",
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^3.0.0",
+    "style-loader": "^1.2.1",
+    "vue-loader": "^13.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
